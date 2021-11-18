@@ -3,22 +3,40 @@ body {
     font-family:Arial, Malvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+
+}
+
+.assignment {
+    width:22%;
     padding:10px;
-    margin: 10px;
-    background : #f9ddd2
+    margin:10px;
+    padding:20px 10px;
+    background: #F9DDD2;
     border-radius:5pix;
+
 }
 
 .assignment img {
     width: 250px;
-    padding: 10px;
+    margin:10px;
+    border:2px solid white;
+    display:block;
+    margin:auto;
+}
+
+.assignment img:hover{
     border:2px solid #4a6274;
 }
 
 h1 {
     color: blue;
+    text-align:center;
+}
+
+h2{
     text-align:center;
 }
 
