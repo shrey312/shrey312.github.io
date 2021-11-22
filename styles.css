@@ -1,50 +1,45 @@
 body {
-    background: yellow;
+    background: #70D0C6;
     font-family:Arial, Malvetica, sans-serif;
 }
-
 .assignments {
-    display:flex;
-    flex-wrap:wrap;
+   display:flex;
+   flex-wrap:wrap;
 
 }
-
 .assignment {
-    width:22%;
-    padding:10px;
-    margin:10px;
-    padding:20px 10px;
-    background: #F9DDD2;
-    border-radius:5pix;
-
+   width:22%;
+   padding:10px;
+   margin:10px;
+   padding:20px 10px;
+   background: #F9DDD2;
+   border-radius:5pix;
 }
-
 .assignment img {
-    width: 250px;
-    margin:10px;
-    border:2px solid white;
-    display:block;
-    margin:auto;
+   width: 250px;
+   margin:10px;
+   border:2px solid white;
+   display:block;
+   margin:auto;
 }
-
-.assignment img:hover{
-    border:2px solid #4a6274;
+.assignment img:hover {
+   border:2px solid #4A6274 ;
 }
 
 h1 {
-    color: blue;
+    color: black;
     text-align:center;
 }
 
-h2{
+h2 {
     text-align:center;
 }
-
-a{
+a {
     text-decoration:none;
-    color: blue;
+    color: white;
 }
 
-a:hover{
-    color: #4a6274
+a:hover {
+    color: #4A6274;
 }
+ 
